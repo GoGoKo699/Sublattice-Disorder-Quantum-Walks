@@ -17,6 +17,10 @@ Start at [README](README.md). The complete scientific account is organized by to
 - [Related work](references/RELATED_WORK.md): inherited graph framework, partial chiral protection, microscopic leakage, relevant-gap and flow methods, sparse simulation.
 - [Verification](verification/README.md): commands, expected numerical observations and analytical limits.
 
+## Learning route
+
+Use one educational anchor: Andrew M. Childs, Lecture Notes on Quantum Algorithms, 17 April 2025. The [Childs bridge](learning/CHILDS_BRIDGE.md) supplies the notation, conceptual connection and a complete three-site example. The [fixed 30-milestone map](learning/MILESTONES.md) has 12 background and 18 narrative targets, with earlier dependencies, exact anchor sections and canonical science pointers. The anchor supplies foundations; the local inverse-moment theorem and the complete disordered-graph argument are derived in science/.
+
 ## Preserve these distinctions
 
 The local moment, not a full spectral gap, controls the fixed walk. Quantum robustness is uniform over positive odd-site values; the classical hard distribution uses independent values. The underlying noiseless oracle advantage and zero-mode invariance are inherited. The result does not cover generic all-site/signed disorder or claim a new unrestricted query separation. Ideal integrated time, oracle calls, gates and physical hardware resources are distinct.

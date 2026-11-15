@@ -20,7 +20,7 @@ For a source on the first block, the [local inverse-moment theorem](science/inve
 \leq W\|B^+s\|^2+\frac{2\|s\|^2}{v}.
 ```
 
-Zero-eigenvalue components are omitted by the pseudoinverses. The estimate controls source-weighted slow modes without a minimum gap in the complete spectrum. On the [degree-six graph family](science/graph_family.md), it yields the following upper bounds at fixed positive $v,W$ and failure probability $\delta$.
+Zero-eigenvalue components are omitted by the pseudoinverses. The estimate controls source-weighted slow modes without a minimum gap in the complete spectrum. On the [degree-six graph family](science/graph_family.md), it yields the following upper bounds at fixed positive $v,W$ and failure probability $0<\delta\leq1/3$.
 
 | Charged resource | Sufficient bound at depth $n$ |
 |---|---:|
@@ -51,6 +51,10 @@ The quantum guarantee is uniform over the permitted positive odd-site potentials
 | What is checked computationally? | [Verification](verification/README.md) |
 
 The [reading guide](llms.txt) maps the scientific questions to their proof sources.
+
+## Learn the result
+
+The single educational anchor is Andrew M. Childs' *Lecture Notes on Quantum Algorithms*, dated 17 April 2025. Start with the [Childs bridge](learning/CHILDS_BRIDGE.md), which connects the clean hidden-graph walk to the full-space disorder argument and a complete three-site example. The [30-milestone common map](learning/MILESTONES.md) then organizes the project's understanding targets into 12 background and 18 narrative milestones, with exact anchor sections and canonical proof pointers.
 
 ## Reproduce the finite checks
 
