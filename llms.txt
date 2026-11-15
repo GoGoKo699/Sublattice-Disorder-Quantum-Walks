@@ -1,0 +1,22 @@
+# Sublattice Disorder Quantum Walks
+
+> Finite-time robustness of prescribed quantum navigation under bounded positive microscopic disorder on one sublattice.
+
+Start at [README](README.md). The complete scientific account is organized by topic under science/.
+
+## Scientific routes
+
+- [Task and access](science/model.md): random hidden graph, exact input/output, potentials, matched classical observations, prescribed-H versus active-oracle distinction.
+- [Local moment](science/inverse_moment.md): rectangular/rank-deficient block theorem, kernel, positive-spectrum floor, variational signed inverse, absolute inverse moment, sampled-time amplitude.
+- [Exact graph](science/graph_family.md): simple six-regular construction, physical vertex count, reducing clean layer spaces, weighted zero vector and endpoint flow.
+- [Traversal](science/traversal.md): quantum theorem, uniform disorder quantifier, time horizon and failed-run accounting.
+- [Classical lower bound](science/classical_lower.md): exact random ensemble, deferred exposure and iid mark/flag reduction.
+- [Resources](science/resources.md): dyadic sampled times, oracle values, simulation error, coherent calls, gates and workspace.
+- [Boundary examples](science/boundaries.md): protected-block perturbation and indefinite-block limits, with their precise scope.
+- [Interpretation](science/interpretation.md): why an intact zero mode alone is insufficient and which hypotheses are essential.
+- [Related work](references/RELATED_WORK.md): inherited graph framework, partial chiral protection, microscopic leakage, relevant-gap and flow methods, sparse simulation.
+- [Verification](verification/README.md): commands, expected numerical observations and analytical limits.
+
+## Preserve these distinctions
+
+The local moment, not a full spectral gap, controls the fixed walk. Quantum robustness is uniform over positive odd-site values; the classical hard distribution uses independent values. The underlying noiseless oracle advantage and zero-mode invariance are inherited. The result does not cover generic all-site/signed disorder or claim a new unrestricted query separation. Ideal integrated time, oracle calls, gates and physical hardware resources are distinct.
