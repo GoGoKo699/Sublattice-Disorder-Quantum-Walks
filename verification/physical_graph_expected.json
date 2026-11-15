@@ -1,0 +1,100 @@
+{
+  "N": 304,
+  "layers": [
+    {
+      "name": "E0",
+      "size": 1,
+      "parity": 0
+    },
+    {
+      "name": "O0",
+      "size": 6,
+      "parity": 1
+    },
+    {
+      "name": "E1",
+      "size": 15,
+      "parity": 0
+    },
+    {
+      "name": "O1",
+      "size": 30,
+      "parity": 1
+    },
+    {
+      "name": "E2",
+      "size": 60,
+      "parity": 0
+    },
+    {
+      "name": "Oc",
+      "size": 80,
+      "parity": 1
+    },
+    {
+      "name": "E2r",
+      "size": 60,
+      "parity": 0
+    },
+    {
+      "name": "O1r",
+      "size": 30,
+      "parity": 1
+    },
+    {
+      "name": "E1r",
+      "size": 15,
+      "parity": 0
+    },
+    {
+      "name": "O0r",
+      "size": 6,
+      "parity": 1
+    },
+    {
+      "name": "Eexit",
+      "size": 1,
+      "parity": 0
+    }
+  ],
+  "degree_min": 6.0,
+  "degree_max": 6.0,
+  "simple_configuration_rejections": [
+    0,
+    6,
+    2,
+    2,
+    1,
+    59,
+    0,
+    0,
+    14,
+    0
+  ],
+  "base_equitable_residual": 1.0084712540042483e-14,
+  "disordered_equitable_residual": 1.111930253608062,
+  "kernel_dimension": 1,
+  "endpoint_zero_projector": -0.22727272727272751,
+  "predicted_absolute_projector": 0.22727272727272727,
+  "endpoint_Bplus_norm_squared": [
+    0.25476354453627187,
+    0.2547635445362719
+  ],
+  "endpoint_absolute_inverse_moment": [
+    0.5447992820918287,
+    0.5433445897208748
+  ],
+  "moment_bound_using_actual_Bplus": [
+    2.0549816345270884,
+    2.0549816345270893
+  ],
+  "uniform_Mbar": 4.083333333333334,
+  "T": 71.86666666666669,
+  "average_transition_amplitude_real": -0.22774308623425554,
+  "average_transition_amplitude_imag": 0.0010925574471531887,
+  "actual_nonzero_remainder": 0.0011895038158911545,
+  "analytical_nonzero_remainder_bound": 0.015141134964582803,
+  "jensen_success_lower_from_actual_average": 0.05186810700927889,
+  "guaranteed_success_lower": 0.012913223140495866,
+  "scope": "One finite random simple degree-six graph, iid binary odd-site potentials. Floating point verifies model and identities only, not asymptotic hardness or novelty."
+}
