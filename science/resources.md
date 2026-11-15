@@ -90,7 +90,7 @@ If a native implementation has deterministic duration error at most $1/(128\Lamb
 
 ## Restarts, reset and output
 
-For requested failure probability $\delta\in(0,1)$, use
+For requested failure probability $0<\delta\leq1/3$, use
 
 $$
 R=\left\lceil16Z^2\ln\frac1\delta\right\rceil.
