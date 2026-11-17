@@ -10,29 +10,29 @@ Write the fixed Hamiltonian in its two bipartition blocks:
 
 ```math
 H=\begin{pmatrix}0&B\\B^\dagger&V\end{pmatrix},
-\qquad 0<vI\preceq V\preceq WI.
+\qquad 0\lt vI\preceq V\preceq WI.
 ```
 
 For a source on the first block, the [local inverse-moment theorem](science/inverse_moment.md) gives
 
 ```math
 \langle s|\,|H|^+\,|s\rangle
-\leq W\|B^+s\|^2+\frac{2\|s\|^2}{v}.
+\leq W\lVert B^+s\rVert ^2+\frac{2\lVert s\rVert ^2}{v}.
 ```
 
-Zero-eigenvalue components are omitted by the pseudoinverses. The estimate controls source-weighted slow modes without a minimum gap in the complete spectrum. On the [degree-six graph family](science/graph_family.md), it yields the following upper bounds at fixed positive $v,W$ and failure probability $0<\delta\leq1/3$.
+Zero-eigenvalue components are omitted by the pseudoinverses. The estimate controls source-weighted slow modes without a minimum gap in the complete spectrum. On the [degree-six graph family](science/graph_family.md), it yields the following upper bounds at fixed positive $`v,W`$ and failure probability $`0\lt \delta\leq1/3`$.
 
-| Charged resource | Sufficient bound at depth $n$ |
+| Charged resource | Sufficient bound at depth $`n`$ |
 |---|---:|
-| Physical vertices | $20\,4^n-16$ |
-| Evolution horizon per run | $O(n^2)$ |
-| Runs, including failures | $O(n^2\log(1/\delta))$ |
-| Total prescribed-Hamiltonian evolution | $O(n^4\log(1/\delta))$ |
-| Coherent input-oracle calls | $\widetilde O(n^4\log(1/\delta))$ |
-| Additional elementary gates | $\widetilde O(n^5\log(1/\delta))$ |
-| Logical workspace for oracle simulation | $O(n)$ qubits |
+| Physical vertices | $`20\,4^n-16`$ |
+| Evolution horizon per run | $`O(n^2)`$ |
+| Runs, including failures | $`O(n^2\log(1/\delta))`$ |
+| Total prescribed-Hamiltonian evolution | $`O(n^4\log(1/\delta))`$ |
+| Coherent input-oracle calls | $`\widetilde O(n^4\log(1/\delta))`$ |
+| Additional elementary gates | $`\widetilde O(n^5\log(1/\delta))`$ |
+| Logical workspace for oracle simulation | $`O(n)`$ qubits |
 
-The walk prepares the known entrance label, samples an evolution time, evolves under the same disordered $H$, measures a vertex, and checks exit membership. It learns or cancels no onsite potential. Finite random bits, value precision, simulation error, reset, output and oracle implementation are charged in the [resource account](science/resources.md). These are upper bounds, not optimal exponents.
+The walk prepares the known entrance label, samples an evolution time, evolves under the same disordered $`H`$, measures a vertex, and checks exit membership. It learns or cancels no onsite potential. Finite random bits, value precision, simulation error, reset, output and oracle implementation are charged in the [resource account](science/resources.md). These are upper bounds, not optimal exponents.
 
 The quantum guarantee is uniform over the permitted positive odd-site potentials. The classical comparison uses independent binary potentials, random labels and random local ports. Such potentials supply no hidden direction or layer information. Arbitrary adaptive classical algorithms require exponentially many queries on the specified hard distribution; the [classical account](science/classical_lower.md) gives the exact probability bound and its inherited graph-exploration method.
 

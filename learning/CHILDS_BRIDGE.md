@@ -43,7 +43,7 @@ A_G=\begin{pmatrix}0&B\\B^\dagger&0\end{pmatrix},
 H=\begin{pmatrix}0&B\\B^\dagger&V\end{pmatrix}.
 ```
 
-The diagonal entry of $`V`$ at an odd vertex is its onsite energy. The theorem assumes $`v\leq V_{xx}\leq W`$ for known $`0<v\leq W`$, while every even onsite energy is exactly zero.
+The diagonal entry of $`V`$ at an odd vertex is its onsite energy. The theorem assumes $`v\leq V_{xx}\leq W`$ for known $`0\lt v\leq W`$, while every even onsite energy is exactly zero.
 
 If two vertices in the same odd layer receive different values, multiplying that layer's uniform state by $`V`$ produces unequal amplitudes. Those amplitudes contain a component outside the uniform-layer space. The actual walk can enter the exponentially large complementary space. We must therefore analyze the full $`H`$; continuing to evolve only the small quotient would solve a different problem.
 
@@ -77,13 +77,13 @@ Here $`|H|`$ replaces every energy by its absolute value, and the pseudoinverse 
 
 A small nonzero energy receives a large reciprocal weight. Its importance is nevertheless multiplied by how strongly the endpoint overlaps that mode. A very slow bulk mode can be harmless for this task if the endpoints barely see it. This is different from proving that no slow modes exist.
 
-To state the project theorem, remove the endpoint's zero component and call the remaining first-block vector $`s_a`$. It lies in $`\operatorname{ran}B`$. The full-space estimate is
+To state the project theorem, remove the endpoint's zero component and call the remaining first-block vector $`s_a`$. It lies in $`\mathrm{ran}B`$. The full-space estimate is
 
 ```math
-M_a\leq W\|B^+s_a\|^2+\frac{2\|s_a\|^2}{v}.
+M_a\leq W\lVert B^+s_a\rVert ^2+\frac{2\lVert s_a\rVert ^2}{v}.
 ```
 
-The quantity $`\|B^+s_a\|^2`$ is source specific. It is not the operator norm $`\|B^+\|^2`$, which would inspect the worst direction in the entire graph.
+The quantity $`\lVert B^+s_a\rVert ^2`$ is source specific. It is not the operator norm $`\lVert B^+\rVert ^2`$, which would inspect the worst direction in the entire graph.
 
 The proof connects three facts: the constrained minimum of $`y^\dagger Vy`$ over $`By=s_a`$ determines the signed inverse expectation of $`H`$; $`B^+s_a`$ is a feasible choice that bounds this minimum from above; and all positive eigenvalues of $`H`$ are at least $`v`$. Combining them bounds the absolute inverse expectation, including negative eigenvalues arbitrarily close to zero. The complete argument is in [the matrix theorem](../science/inverse_moment.md).
 
@@ -128,7 +128,7 @@ In block order $`(a,b\mid o)`$, this is $`B=(1,1)^T`$ and $`V=(\nu)`$. The norma
 
 Changing the middle energy does not change this state. The other two energies are $`(\nu\pm\sqrt{\nu^2+8})/2`$, obtained by restricting $`H`$ to the span of $`(|a\rangle+|b\rangle)/\sqrt2`$ and $`|o\rangle`$.
 
-The entrance with its zero component removed is $`s_a=(|a\rangle+|b\rangle)/2`$. Solving $`By=s_a`$ gives $`y=1/2`$, so $`\|B^+s_a\|^2=1/4`$ and $`\|s_a\|^2=1/2`$. The same holds for the exit. The theorem therefore gives
+The entrance with its zero component removed is $`s_a=(|a\rangle+|b\rangle)/2`$. Solving $`By=s_a`$ gives $`y=1/2`$, so $`\lVert B^+s_a\rVert ^2=1/4`$ and $`\lVert s_a\rVert ^2=1/2`$. The same holds for the exit. The theorem therefore gives
 
 ```math
 M_a,M_b\leq\frac\nu4+\frac1\nu.
@@ -136,7 +136,7 @@ M_a,M_b\leq\frac\nu4+\frac1\nu.
 
 For $`\nu=1`$, use the conservative bound $`M_a,M_b\leq5/4`$ and choose $`T=10`$. The possible nonzero-spectrum remainder in the average amplitude is at most $`1/4`$. Since the zero contribution has magnitude $`1/2`$, the average transition probability is at least $`1/16`$.
 
-A complete run prepares $`a`$, samples a duration in $`[0,10]`$, evolves under the displayed matrix, measures the position, and checks whether it is $`b`$. Eighteen independent runs give failure probability at most $`e^{-18/16}<1/3`$. These deliberately loose bounds illustrate the proof chain. This three-site system has no hidden-graph hardness or asymptotic speedup; the large graph supplies that separate ingredient.
+A complete run prepares $`a`$, samples a duration in $`[0,10]`$, evolves under the displayed matrix, measures the position, and checks whether it is $`b`$. Eighteen independent runs give failure probability at most $`e^{-18/16}\lt 1/3`$. These deliberately loose bounds illustrate the proof chain. This three-site system has no hidden-graph hardness or asymptotic speedup; the large graph supplies that separate ingredient.
 
 ## 7. Translate the access model before interpreting the advantage
 
@@ -145,7 +145,7 @@ A complete run prepares $`a`$, samples a duration in $`[0,10]`$, evolves under t
 | A vertex name represented by bits | An $`\ell=O(n)`$-bit random label; the entrance name is supplied. |
 | A local port selects a neighbor | A charged reversible neighbor-list query; ports reveal no layer direction. |
 | Uniform column states | Uniform states of this family's hidden layers; used analytically, not supplied as input. |
-| The walk Hamiltonian | The prescribed $`H=A_G+\operatorname{diag}(0,V)`$. |
+| The walk Hamiltonian | The prescribed $`H=A_G+\mathrm{diag}(0,V)`$. |
 | Spectral control of time averaging | The endpoint moments $`M_a,M_b`$, rather than a minimum full-spectrum gap. |
 | A classical lower bound | A bound against arbitrary adaptive classical queries, not just random walking. |
 
