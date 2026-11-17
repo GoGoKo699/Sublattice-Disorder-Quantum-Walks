@@ -32,7 +32,7 @@
     {
       "path": "science/inverse_moment.md",
       "index": 12,
-      "source_sha256": "878c742cfb1125cd26efdef11f77b8f2da0d18469af84ede83ce30df9942449a",
+      "source_sha256": "aa7a2007dd982b981e8e7b179212fd280651c35fd701f5755c0f7b4386a72d4f",
       "required_text": [
         "−",
         "E",
@@ -47,7 +47,7 @@
     {
       "path": "science/traversal.md",
       "index": 3,
-      "source_sha256": "4fddf7ec3cc6ff0971b480e35c613ce9da99a410d602b3533c82981ec8b772c3",
+      "source_sha256": "40dbf82b0d6c64ae66499d3d3239152e4d015e167ad985c7110c6a97299a0ad8",
       "required_text": [
         "k",
         "=",
@@ -64,7 +64,7 @@
     {
       "path": "science/traversal.md",
       "index": 6,
-      "source_sha256": "22c48da13d79d346dea53bd833847224db49ddbfb0ea2ccd7c670e92a414a8fb",
+      "source_sha256": "d92dd36d4980a1c62bbba1ff46f7253e324e0adda2d6d99e0683abe663197599",
       "required_text": [
         "p",
         "1",
