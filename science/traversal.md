@@ -4,7 +4,7 @@ The walk succeeds because its endpoint zero-mode amplitude remains visible withi
 
 ## Theorem
 
-Take a graph from the [exact family](graph_family.md), and let its odd-site diagonal potential obey $v\leq V_{xx}\leq W$ for fixed known $0<v\leq W$. Put
+Take a graph from the [exact family](graph_family.md), and let its odd-site diagonal potential obey $v\leq V_{xx}\leq W$ for fixed known $0\lt v\leq W$. Put
 
 $$
 k=2n+1,
@@ -56,7 +56,7 @@ The input supplies $n,v,W$ and the entrance label. It does not supply the hidden
 3. Measure the vertex label and query exit membership.
 4. Return a positively identified exit, or start a fresh run.
 
-For $0<\delta\leq1/3$, after
+For $0\lt \delta\leq1/3$, after
 
 $$
 R=\left\lceil4Z^2\log\frac1\delta\right\rceil

@@ -12,7 +12,7 @@ Z=\frac{3k+7}{5},\qquad
 \overline M=\frac{5Wk}{24}+\frac2v.
 $$
 
-Here $0<v\leq W$ are known bounds on the odd-site diagonal. Use supplied rational bounds, or conservative rational bounds, when computing the finite algorithm's parameters. Set $\Lambda=6+W$, so $\lVert H\rVert\leq\Lambda$. Choose
+Here $0\lt v\leq W$ are known bounds on the odd-site diagonal. Use supplied rational bounds, or conservative rational bounds, when computing the finite algorithm's parameters. Set $\Lambda=6+W$, so $\lVert H\rVert\leq\Lambda$. Choose
 
 $$
 T_0=2^{\lceil\log_2(4Z\overline M)\rceil},
@@ -21,7 +21,7 @@ q=\max\!\left\{0,\left\lceil\log_2(4\Lambda T_0Z)\right\rceil\right\},
 \qquad M=2^q.
 $$
 
-Thus $4Z\overline M\leq T_0<8Z\overline M$. Sample $j$ uniformly from $\{0,\ldots,M-1\}$ using $q$ fair classical bits and set
+Thus $4Z\overline M\leq T_0\lt 8Z\overline M$. Sample $j$ uniformly from $\{0,\ldots,M-1\}$ using $q$ fair classical bits and set
 
 $$
 t_j=\frac{jT_0}{M}.
@@ -90,7 +90,7 @@ If a native implementation has deterministic duration error at most $1/(128\Lamb
 
 ## Restarts, reset and output
 
-For requested failure probability $0<\delta\leq1/3$, use
+For requested failure probability $0\lt \delta\leq1/3$, use
 
 $$
 R=\left\lceil16Z^2\ln\frac1\delta\right\rceil.

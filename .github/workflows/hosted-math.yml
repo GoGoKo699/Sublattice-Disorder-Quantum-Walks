@@ -47,7 +47,8 @@ jobs:
           export NODE_PATH="$RUNNER_TEMP/math-runtime/node_modules"
           node verification/hosted_math/capture_hosted_math.cjs \
             --root "$GITHUB_WORKSPACE" --repository "$GITHUB_REPOSITORY" \
-            --revision "$CAPTURE_REVISION" --output "$RUNNER_TEMP/hosted-math"
+            --revision "$CAPTURE_REVISION" --contract verification/hosted_math/math-contract.json \
+            --output "$RUNNER_TEMP/hosted-math"
       - name: Retain captures and comparison reports
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

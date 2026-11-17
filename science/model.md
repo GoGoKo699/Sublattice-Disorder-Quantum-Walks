@@ -37,7 +37,7 @@ $$
 In the algorithmic family, $V$ is diagonal and its entries obey
 
 $$
-0<v\leq V_{xx}\leq W<\infty
+0\lt v\leq V_{xx}\leq W\lt \infty
 \qquad(x\in\mathsf O).
 $$
 

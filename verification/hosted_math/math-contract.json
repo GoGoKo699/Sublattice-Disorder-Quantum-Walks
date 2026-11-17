@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "expressions": [
+    {
+      "path": "README.md",
+      "index": 1,
+      "source_sha256": "f3da3282cbe0ee376a3fb38fc26bc36e5c5e1cf7f025ed6ab1882fc9c01fbcbb",
+      "required_text": [
+        "H",
+        "=",
+        "0",
+        "B",
+        "V",
+        "v",
+        "W"
+      ]
+    },
+    {
+      "path": "README.md",
+      "index": 2,
+      "source_sha256": "613e4ef946634188b3c3f275d4d4c0e3389bb3e208deff9984c6d43d941542db",
+      "required_text": [
+        "≤",
+        "W",
+        "B",
+        "+",
+        "s",
+        "2",
+        "v"
+      ]
+    },
+    {
+      "path": "science/inverse_moment.md",
+      "index": 12,
+      "source_sha256": "878c742cfb1125cd26efdef11f77b8f2da0d18469af84ede83ce30df9942449a",
+      "required_text": [
+        "−",
+        "E",
+        "M",
+        "≤",
+        "W",
+        "B",
+        "2",
+        "v"
+      ]
+    },
+    {
+      "path": "science/traversal.md",
+      "index": 3,
+      "source_sha256": "4fddf7ec3cc6ff0971b480e35c613ce9da99a410d602b3533c82981ec8b772c3",
+      "required_text": [
+        "k",
+        "=",
+        "2",
+        "n",
+        "1",
+        "Z",
+        "5",
+        "24",
+        "v",
+        "T"
+      ]
+    },
+    {
+      "path": "science/traversal.md",
+      "index": 6,
+      "source_sha256": "22c48da13d79d346dea53bd833847224db49ddbfb0ea2ccd7c670e92a414a8fb",
+      "required_text": [
+        "p",
+        "1",
+        "4",
+        "Z",
+        "2"
+      ]
+    },
+    {
+      "path": "learning/CHILDS_BRIDGE.md",
+      "index": 14,
+      "source_sha256": "43bde275da8081e6346c357a4675888934c92610cd6b573f95e4860d1bf470be",
+      "required_text": [
+        "0",
+        "<",
+        "v",
+        "≤",
+        "W"
+      ]
+    },
+    {
+      "path": "learning/CHILDS_BRIDGE.md",
+      "index": 28,
+      "source_sha256": "da567496b9096d8c37e5e7ee69c6a8d846ff2fa0bd022b1ee243fb06d9699697",
+      "required_text": [
+        "ran",
+        "B"
+      ]
+    },
+    {
+      "path": "learning/CHILDS_BRIDGE.md",
+      "index": 29,
+      "source_sha256": "e367fa38365c211f52b8590e1cd2425d346719431ea85492618bd5303df5d532",
+      "required_text": [
+        "M",
+        "≤",
+        "W",
+        "B",
+        "2",
+        "v"
+      ]
+    },
+    {
+      "path": "learning/CHILDS_BRIDGE.md",
+      "index": 84,
+      "source_sha256": "5a2a9ada86f48c26db711011462fecf3b417fa607d47e1deaa5b845bd99d19ce",
+      "required_text": [
+        "H",
+        "=",
+        "A",
+        "diag",
+        "0",
+        "V"
+      ]
+    }
+  ]
+}

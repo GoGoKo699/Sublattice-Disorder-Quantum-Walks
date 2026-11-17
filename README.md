@@ -10,17 +10,17 @@ Write the fixed Hamiltonian in its two bipartition blocks:
 
 ```math
 H=\begin{pmatrix}0&B\\B^\dagger&V\end{pmatrix},
-\qquad 0<vI\preceq V\preceq WI.
+\qquad 0\lt vI\preceq V\preceq WI.
 ```
 
 For a source on the first block, the [local inverse-moment theorem](science/inverse_moment.md) gives
 
 ```math
 \langle s|\,|H|^+\,|s\rangle
-\leq W\|B^+s\|^2+\frac{2\|s\|^2}{v}.
+\leq W\lVert B^+s\rVert ^2+\frac{2\lVert s\rVert ^2}{v}.
 ```
 
-Zero-eigenvalue components are omitted by the pseudoinverses. The estimate controls source-weighted slow modes without a minimum gap in the complete spectrum. On the [degree-six graph family](science/graph_family.md), it yields the following upper bounds at fixed positive $v,W$ and failure probability $0<\delta\leq1/3$.
+Zero-eigenvalue components are omitted by the pseudoinverses. The estimate controls source-weighted slow modes without a minimum gap in the complete spectrum. On the [degree-six graph family](science/graph_family.md), it yields the following upper bounds at fixed positive $v,W$ and failure probability $0\lt \delta\leq1/3$.
 
 | Charged resource | Sufficient bound at depth $n$ |
 |---|---:|

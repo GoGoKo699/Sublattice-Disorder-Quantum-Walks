@@ -7,7 +7,7 @@ A preserved zero mode need not be useful at a finite time. Other eigenvalues can
 Let $B:\mathbb C^q\to\mathbb C^p$ be any finite matrix. It may be rectangular or rank deficient. Let $V$ be Hermitian and satisfy
 
 $$
-0<vI\preceq V\preceq WI,
+0\lt vI\preceq V\preceq WI,
 \qquad
 H=\begin{pmatrix}0&B\\B^\dagger&V\end{pmatrix}.
 $$

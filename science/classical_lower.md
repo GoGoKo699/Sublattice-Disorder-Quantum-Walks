@@ -158,7 +158,7 @@ $$
 \leq24(Q+1)2^{b-a}.
 $$
 
-The bound includes returns toward the entrance and visits to the exit-side endpoint region. It assumes no monotonic motion. A return to a large prefix layer $b<i\leq a$ is permitted.
+The bound includes returns toward the entrance and visits to the exit-side endpoint region. It assumes no monotonic motion. A return to a large prefix layer $b\lt i\leq a$ is permitted.
 
 ## An unconditioned reference transcript
 

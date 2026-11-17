@@ -14,7 +14,7 @@ $$
 $$
 
 $$
-|O_j|=2|E_j|\quad(1\leq j<n).
+|O_j|=2|E_j|\quad(1\leq j\lt n).
 $$
 
 Take a disjoint reflected copy on the right, denoted $E'_j,O'_j$. Between the two peak even layers $E_n,E'_n$, insert a central odd layer $O_c$ of size
@@ -29,8 +29,8 @@ The degree rules on the growing left half are:
 
 - The entrance has six neighbors in $O_0$.
 - Each vertex of $O_0$ has one neighbor in $E_0$ and five in $E_1$.
-- Each vertex of $E_j$, $1\leq j<n$, has two neighbors in the previous odd layer and four in $O_j$.
-- Each vertex of $O_j$, $1\leq j<n$, has two neighbors in $E_j$ and four in $E_{j+1}$.
+- Each vertex of $E_j$, $1\leq j\lt n$, has two neighbors in the previous odd layer and four in $O_j$.
+- Each vertex of $O_j$, $1\leq j\lt n$, has two neighbors in $E_j$ and four in $E_{j+1}$.
 - Each vertex of $E_n$ has two neighbors in the previous odd layer and four in $O_c$.
 - Each vertex of $O_c$ has three neighbors in $E_n$ and three in $E'_n$.
 
