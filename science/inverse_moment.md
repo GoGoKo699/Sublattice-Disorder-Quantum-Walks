@@ -22,7 +22,7 @@ $$
 \ker H=(\ker B^\dagger)\oplus\{0\}.
 $$
 
-For $s\in\operatorname{ran}B$ and $u=(s,0)$, define
+For $s\in\mathrm{ran}B$ and $u=(s,0)$, define
 
 $$
 \mathcal E_s=\min_{Bz=s}z^\dagger Vz,
@@ -53,7 +53,7 @@ Strict positivity implies $y=0$, after which $B^\dagger x=0$. The converse is im
 
 ### Proof of the variational identity
 
-Because $s\in\operatorname{ran}B$, $u$ is orthogonal to $\ker H$ and $H H^+u=u$. Write $H^+u=(x,y)$. Its equations are
+Because $s\in\mathrm{ran}B$, $u$ is orthogonal to $\ker H$ and $H H^+u=u$. Write $H^+u=(x,y)$. Its equations are
 
 $$
 By=s,
@@ -109,7 +109,7 @@ s_a=(I-P_{\ker B^\dagger})a,
 s_b=(I-P_{\ker B^\dagger})b.
 $$
 
-The vectors $s_a,s_b$ belong to $\operatorname{ran}B$. Since $|H|^+$ vanishes on the kernel, the theorem bounds
+The vectors $s_a,s_b$ belong to $\mathrm{ran}B$. Since $|H|^+$ vanishes on the kernel, the theorem bounds
 
 $$
 M_a=\langle a|\,|H|^+\,|a\rangle,

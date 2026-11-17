@@ -109,7 +109,7 @@ The [matrix theorem](inverse_moment.md) shows that the same matrix element is $\
 
 ## A source-specific flow bound
 
-Let $C=\operatorname{diag}(c_i)$, and let $D$ be the oriented incidence matrix of the path: its column $j$ has entries $+1$ at row $j$ and $-1$ at row $j+1$. Set
+Let $C=\mathrm{diag}(c_i)$, and let $D$ be the oriented incidence matrix of the path: its column $j$ has entries $+1$ at row $j$ and $-1$ at row $j+1$. Set
 
 $$
 \Gamma_j=a_jc_j=b_jc_{j+1}.
@@ -120,7 +120,7 @@ In the sign gauge,
 $$
 B_q=C^{-1}D\Gamma,
 \qquad
-\Gamma=\operatorname{diag}(\Gamma_j),
+\Gamma=\mathrm{diag}(\Gamma_j),
 \qquad
 \Gamma_j^2\geq\frac{24}5.
 $$

@@ -77,7 +77,7 @@ Here $`|H|`$ replaces every energy by its absolute value, and the pseudoinverse 
 
 A small nonzero energy receives a large reciprocal weight. Its importance is nevertheless multiplied by how strongly the endpoint overlaps that mode. A very slow bulk mode can be harmless for this task if the endpoints barely see it. This is different from proving that no slow modes exist.
 
-To state the project theorem, remove the endpoint's zero component and call the remaining first-block vector $`s_a`$. It lies in $`\operatorname{ran}B`$. The full-space estimate is
+To state the project theorem, remove the endpoint's zero component and call the remaining first-block vector $`s_a`$. It lies in $`\mathrm{ran}B`$. The full-space estimate is
 
 ```math
 M_a\leq W\|B^+s_a\|^2+\frac{2\|s_a\|^2}{v}.
@@ -145,7 +145,7 @@ A complete run prepares $`a`$, samples a duration in $`[0,10]`$, evolves under t
 | A vertex name represented by bits | An $`\ell=O(n)`$-bit random label; the entrance name is supplied. |
 | A local port selects a neighbor | A charged reversible neighbor-list query; ports reveal no layer direction. |
 | Uniform column states | Uniform states of this family's hidden layers; used analytically, not supplied as input. |
-| The walk Hamiltonian | The prescribed $`H=A_G+\operatorname{diag}(0,V)`$. |
+| The walk Hamiltonian | The prescribed $`H=A_G+\mathrm{diag}(0,V)`$. |
 | Spectral control of time averaging | The endpoint moments $`M_a,M_b`$, rather than a minimum full-spectrum gap. |
 | A classical lower bound | A bound against arbitrary adaptive classical queries, not just random walking. |
 

@@ -142,7 +142,7 @@ $$
 \ell=\lceil2\log_2N\rceil=O(k).
 $$
 
-Counting a second address register, finite value/arithmetic registers and simulation ancillas gives $O(\ell+\operatorname{polylog}k)=O(k)$ quantum workspace at fixed $v,W$. The inverse and controlled operations used inside a gate-model simulator act on the reversible input-query circuits. The passive physical protocol itself uses no reversal of $H$.
+Counting a second address register, finite value/arithmetic registers and simulation ancillas gives $O(\ell+\mathrm{polylog}k)=O(k)$ quantum workspace at fixed $v,W$. The inverse and controlled operations used inside a gate-model simulator act on the reversible input-query circuits. The passive physical protocol itself uses no reversal of $H$.
 
 For fixed $v,W$, the resulting sufficient bounds are:
 
